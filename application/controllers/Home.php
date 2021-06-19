@@ -14,7 +14,6 @@ class home extends CI_Controller {
         $this->load->view($this->template, $this->data);
     }
     public function about_us(){
-        //$this->load->view('home/about_us');
         $this->data['page_title'] = 'About-Us';
         $this->data['page_content'] = 'about_us';
         $this->load->view($this->template, $this->data);
