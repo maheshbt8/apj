@@ -33,5 +33,11 @@ class home extends CI_Controller {
     public function competitions(){
         $this->load->view('home/competitions');
     }
+
+    public function course_list(){
+        $this->data['page_title'] = 'Course-List';
+        $this->data['page_content'] = 'course_list';
+        $this->load->view($this->template, $this->data);
+    }
 }
 ?>

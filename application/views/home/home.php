@@ -113,7 +113,7 @@
 																		<img alt="Principles of Written English, Part 2" src="https://previews.123rf.com/images/oksun70/oksun701507/oksun70150700124/42737589-kid-girl-drawing-and-making-by-hands.jpg" style=" height: 241px;">
 																	</a>
 																	<h4 class="post_title">
-																		<a href="paid-course.html">GROUP 1</a>
+																		<a href="<?php echo base_url()?>Course-List">GROUP 1</a>
 																	</h4>
 																	<div class="post_descr">
 																		<div class="post_price">
@@ -128,15 +128,15 @@
 																<div class="post_info_wrap info">
 																	<div class="info-back">
 																		<h4 class="post_title">
-																			<a href="paid-course.html">Play School</a>
+																			<a href="paid-course.html">GROUP 1 </a>
 																		</h4>
 																		<div class="post_descr">
 																			<p>
-																				<a href="paid-course.html">Rhymes Fancy dress (Solo or with parent/sibling) Show your talent ( any form of talent or art )</a>
+																				<a href="<?php echo base_url()?>Course-List">Play School</a>
 																			</p>
 																			<div class="post_buttons">
 																				<div class="post_button">
-																					<a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">Register</a>
+																					<a href="<?php echo base_url()?>Course-List" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">Register</a>
 																				</div>
 																				<!-- <div class="post_button">
 																					<a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">BUY NOW</a>
@@ -154,11 +154,11 @@
 														<div class="post_item post_item_courses even">
 															<div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">
 																<div class="post_featured img">
-																	<a href="paid-course.html">
+																	<a href="<?php echo base_url()?>Course-List">
 																		<img alt="Entrepreneurship 101: Who is your customer?" src="https://previews.123rf.com/images/belchonock/belchonock1803/belchonock180320453/97250820-group-of-children-dancing-in-choreography-class.jpg" style=" height: 241px;">
 																	</a>
 																	<h4 class="post_title">
-																		<a href="paid-course.html">GROUP 2</a>
+																		<a href="<?php echo base_url()?>Course-List">GROUP 2</a>
 																	</h4>
 																	<div class="post_descr">
 																		<div class="post_price">
@@ -172,18 +172,18 @@
 																<div class="post_info_wrap info">
 																	<div class="info-back">
 																		<h4 class="post_title">
-																			<a href="paid-course.html">PP1, PP2, 1st Class, 2nd Class</a>
+																			<a href="<?php echo base_url()?>Course-List">GROUP 2</a>
 																		</h4>
 																		<div class="post_descr">
 																			<p>
-																				<a href="paid-course.html">Dancing (Solo or with parent/sibling) Rhymes Fancy dress (Solo or with parent/sibling)
+																				<a href="<?php echo base_url()?>Course-List">Dancing (Solo or with parent/sibling) Rhymes Fancy dress (Solo or with parent/sibling)
 Clay modelling
 Colouring/Sketching 
 Show your talent ( any form of talent or art )</a>
 																			</p>
 																			<div class="post_buttons">
 																				<div class="post_button">
-																					<a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">Register</a>
+																					<a href="<?php echo base_url()?>Course-List" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">Register</a>
 																				</div>
 																				<!-- <div class="post_button">
 																					<a href="product-page.html" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">BUY NOW</a>
@@ -205,7 +205,7 @@ Show your talent ( any form of talent or art )</a>
 																		<img alt="Evaluating Social  Programs" src="https://previews.123rf.com/images/dang2557/dang25571809/dang2557180900035/134651062-asian-little-girl-painting-on-paper-in-white-room-at-home.jpg" style=" height: 241px;">
 																	</a>
 																	<h4 class="post_title">
-																		<a href="#">GROUP 3</a>
+																		<a href="<?php echo base_url()?>Course-List">GROUP 3</a>
 																	</h4>
 																	<div class="post_descr">
 																		<div class="post_price">
@@ -219,15 +219,15 @@ Show your talent ( any form of talent or art )</a>
 																<div class="post_info_wrap info">
 																	<div class="info-back">
 																		<h4 class="post_title">
-																			<a href="free-course.html">3rd Class, 4th Class, 5th Class, 6th Class</a>
+																			<a href="free-course.html"> GROUP 3 </a>
 																		</h4>
 																		<div class="post_descr">
 																			<p>
-																				<a href="#">Dancing (Solo or with parent/sibling), Singing, Instrument, Fancy dress (Solo or with parent/sibling),Best out of Waste, Drawing / Sketching, Essay writing/Story Writing, Science fair, Show your talent ( any form of talent or art )</a>
+																				<a href="<?php echo base_url()?>Course-List">3rd Class, 4th Class, 5th Class, 6th Class</a>
 																			</p>
 																			<div class="post_buttons">
 																				<div class="post_button">
-																					<a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">Register</a>
+																					<a href="<?php echo base_url()?>Course-List" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">Register</a>
 																				</div>
 																			</div>
 																		</div>
@@ -246,7 +246,7 @@ Show your talent ( any form of talent or art )</a>
 																		<img alt="Principles of Written English, Part 1" src="https://previews.123rf.com/images/twinsterphoto/twinsterphoto1905/twinsterphoto190500022/124612054-closeup-of-elementary-african-american-kids-creatively-drawing-and-painting-with-brushes-and-crayon-.jpg" style=" height: 241px;">
 																	</a>
 																	<h4 class="post_title">
-																		<a href="#">GROUP 4 </a>
+																		<a href="<?php echo base_url()?>Course-List">GROUP 4 </a>
 																	</h4>
 																	<div class="post_descr">
 																		<div class="post_price">
@@ -260,11 +260,11 @@ Show your talent ( any form of talent or art )</a>
 																<div class="post_info_wrap info">
 																	<div class="info-back">
 																		<h4 class="post_title">
-																			<a href="#">7th Class, 8th Class, 9th Class, 10th Class</a>
+																			<a href="<?php echo base_url()?>Course-List">GROUP 4 </a>
 																		</h4>
 																		<div class="post_descr">
 																			<p>
-																				<a href="paid-course.html">Dancing, Singing, Instrument, Best out of Waste, Painting/ Drawing / Sketching, Essay writing/Story writing, Elocution etc..</a>
+																				<a href="paid-course.html">7th Class, 8th Class, 9th Class, 10th Class</a>
 																			</p>
 																			<div class="post_buttons">
 																				<div class="post_button">
