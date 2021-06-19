@@ -24,7 +24,7 @@ filter: alpha(opacity=0);
 </style>
 </head>
 
-<body class="home page body_style_fullscreen body_filled article_style_stretch layout_single-standard top_panel_style_dark top_panel_opacity_transparent top_panel_show top_panel_over menu_right user_menu_show sidebar_hide">
+<body class="<?php echo ($this->is_homepage? 'home page body_style_fullscreen body_filled article_style_stretch layout_single-standard top_panel_style_dark top_panel_opacity_transparent top_panel_show top_panel_over menu_right user_menu_show sidebar_hide' : 'page body_style_fullscreen body_filled article_style_boxed top_panel_style_dark top_panel_opacity_solid top_panel_above menu_right sidebar_hide');?>">
 <a id="toc_top" class="sc_anchor" title="To Top" data-description="&lt;i&gt;Back to top&lt;/i&gt; - &lt;br&gt;scroll to top of the page" data-icon="icon-angle-double-up" data-url="" data-separator="yes"></a>
 <!-- Body -->
 <div class="body_wrap">
@@ -36,8 +36,8 @@ filter: alpha(opacity=0);
 		<?php include('include/footer.php');?>
         <!-- /Contacts Footer -->
 		<!-- Copyright -->
-       </div>
-   </div>
+    </div>
+</div>
 		<!-- /Copyright -->
 <?php include('include/script.php')?>     
 	

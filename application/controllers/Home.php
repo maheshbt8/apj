@@ -5,13 +5,16 @@ class home extends CI_Controller {
     {
         parent::__construct();
         $this->template = 'home/index';
+        $this->is_homepage=false;
     }
     public function index(){
         $this->data['page_title'] = 'Home';
         $this->data['page_content'] = 'home';
+        $this->is_homepage=true;
         $this->load->view($this->template, $this->data);
     }
     public function about_us(){
+        //$this->load->view('home/about_us');
         $this->data['page_title'] = 'About-Us';
         $this->data['page_content'] = 'about_us';
         $this->load->view($this->template, $this->data);
