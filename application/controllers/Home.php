@@ -7,15 +7,19 @@ class home extends CI_Controller {
         $this->template = 'home/index';
     }
     public function index(){
-        $this->data['page_title'] = 'Dashboard';
+        $this->data['page_title'] = 'Home';
         $this->data['page_content'] = 'home';
         $this->load->view($this->template, $this->data);
     }
     public function about_us(){
-        $this->load->view('home/about_us');
+        $this->data['page_title'] = 'About-Us';
+        $this->data['page_content'] = 'about_us';
+        $this->load->view($this->template, $this->data);
     }
     public function contact_us(){
-        $this->load->view('home/contact_us');
+        $this->data['page_title'] = 'Contact-Us';
+        $this->data['page_content'] = 'contact_us';
+        $this->load->view($this->template, $this->data);
     }
     public function feature(){
         $this->load->view('home/feature');
