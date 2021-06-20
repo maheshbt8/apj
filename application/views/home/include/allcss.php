@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.3.1" type="text/css" media="all" />
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,700,700italic&#038;subset=latin,latin-ext,cyrillic,cyrillic-ext" type="text/css" media="all" />
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister:400&#038;subset=latin" type="text/css" media="all" />
-<link rel="stylesheet" href="<?php echo base_url('assets/');?>css/fontello.css" type="text/css" media="all" />
+<link rel="stylesheet" href="<?php echo base_url('assets/');?>css/fontello/css/fontello.css" type="text/css" media="all" />
 
 <link rel="stylesheet" href="<?php echo base_url('assets/');?>js/rs-plugin/settings.css" type="text/css" media="all" />
 
@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="<?php echo base_url('assets/');?>css/core.portfolio.css" type="text/css" media="all" />
 <link rel="stylesheet" href="<?php echo base_url('assets/');?>js/mediaelement/mediaelementplayer.min.css" type="text/css" media="all" />
 <link rel="stylesheet" href="<?php echo base_url('assets/');?>js/mediaelement/wp-mediaelement.css" type="text/css" media="all" />
-<link rel="stylesheet" href="<?php echo base_url('assets/');?>js/prettyPhoto/<?php echo base_url('assets/');?>css/prettyPhoto.css" type="text/css" media="all" />	
+<link rel="stylesheet" href="<?php echo base_url('assets/');?>css/prettyPhoto.css" type="text/css" media="all" />	
 <link rel="stylesheet" href="<?php echo base_url('assets/');?>js/core.customizer/front.customizer.css" type="text/css" media="all" />
 <link rel="stylesheet" href="<?php echo base_url('assets/');?>js/core.messages/core.messages.css" type="text/css" media="all" />
 <link rel="stylesheet" href="<?php echo base_url('assets/');?>js/swiper/swiper.min.css" type="text/css" media="all" />

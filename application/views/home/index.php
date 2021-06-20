@@ -35,7 +35,6 @@ filter: alpha(opacity=0);
         <!-- /Content without sidebar -->
 		<?php include('include/footer.php');?>
         <!-- /Contacts Footer -->
-		<!-- Copyright -->
     </div>
 </div>
 		<!-- /Copyright -->

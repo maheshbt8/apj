@@ -10,6 +10,7 @@ class home extends CI_Controller {
     public function index(){
         $this->data['page_title'] = 'Home';
         $this->data['page_content'] = 'home';
+        $this->data['page_type'] = 'home';
         $this->is_homepage=true;
         $this->load->view($this->template, $this->data);
     }
@@ -17,11 +18,13 @@ class home extends CI_Controller {
         //$this->load->view('home/about_us');
         $this->data['page_title'] = 'About-Us';
         $this->data['page_content'] = 'about_us';
+        $this->data['page_type'] = 'about_us';
         $this->load->view($this->template, $this->data);
     }
     public function contact_us(){
         $this->data['page_title'] = 'Contact-Us';
         $this->data['page_content'] = 'contact_us';
+        $this->data['page_type'] = 'contact_us';
         $this->load->view($this->template, $this->data);
     }
     public function feature(){
@@ -31,7 +34,22 @@ class home extends CI_Controller {
         $this->load->view('home/blog');
     }
     public function competitions(){
-        $this->load->view('home/competitions');
+        $this->data['page_title'] = 'Competitions';
+        $this->data['page_content'] = 'competitions';
+        $this->data['page_type'] = 'competitions';
+        $this->load->view($this->template, $this->data);
+    }
+    public function Competition_types(){
+        $this->data['page_title'] = 'Competition-Types';
+        $this->data['page_content'] = 'competition_types';
+        $this->data['page_type'] = 'competition_types';
+        $this->load->view($this->template, $this->data);
+    }
+    public function single_course(){
+        $this->data['page_title'] = 'Competition-Single-Page';
+        $this->data['page_content'] = 'single_course';
+        $this->data['page_type'] = 'single_course';
+        $this->load->view($this->template, $this->data);
     }
 }
 ?>

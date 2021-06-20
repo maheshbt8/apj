@@ -61,3 +61,5 @@ $route['about-us'] = 'home/about_us';
 $route['feature'] = 'home/feature';
 $route['blog'] = 'home/blog';
 $route['competitions'] = 'home/competitions';
+$route['competition_types'] = 'home/Competition_types';
+$route['single_course'] = 'home/single_course';

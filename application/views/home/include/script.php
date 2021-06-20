@@ -28,9 +28,9 @@
 <script type="text/javascript" src="<?php echo base_url('assets/');?>js/swiper/swiper.scrollbar.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url('assets/');?>js/diagram/chart.min.js"></script>
 
-<script type="text/javascript" src="<?php echo base_url('assets/');?>js/core.customizer/front.customizer.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url('assets/');?>js/skin.customizer.min.js"></script>
+<!-- <script type="text/javascript" src="<?php echo base_url('assets/');?>js/core.customizer/front.customizer.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url('assets/');?>js/skin.customizer.min.js"></script> -->
 
 
 
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6603d0ddbd910e24","token":"dab7be3e6ab04952b40d6c8e93f6cc2a","version":"2021.5.2","si":10}'></script>
+<!-- <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6603d0ddbd910e24","token":"dab7be3e6ab04952b40d6c8e93f6cc2a","version":"2021.5.2","si":10}'></script> -->

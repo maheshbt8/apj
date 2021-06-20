@@ -61,75 +61,67 @@
                         <a href="#" class="menu_main_responsive_button icon-menu-1"></a>
 						<nav class="menu_main_nav_area">
 							<ul id="menu_main" class="menu_main_nav">
-								<li class="menu-item menu-item-has-children current-menu-ancestor current-menu-parent"><a href="<?php echo base_url();?>">Homepage</a>
-									<!-- <ul class="sub-menu">
-										<li class="menu-item current-menu-item page_item current_page_item"><a href="index.html">Homepage Wide</a></li>
-										<li class="menu-item"><a href="homepage-2.html">Homepage Boxed</a></li>
-										<li class="menu-item"><a href="homepage-3.html">Homepage Photos</a></li>
-									</ul> -->
+								<li class="menu-item <?php echo($page_type == 'home')? 'current-menu-ancestor current-menu-parent' : '';?>"><a href="<?php echo base_url();?>">Homepage</a>
 								</li>
-								<li class="menu-item menu-item-has-children"><a href="<?=base_url()?>about-us">About Us </a>
-									<!-- <ul class="sub-menu">
-										<li class="menu-item"><a href="typography.html">Typography</a></li>
-										<li class="menu-item"><a href="shortcodes.html">Shortcodes</a></li>
-										<li class="menu-item"><a href="events.html">Events Calendar</a></li>
-										<li class="menu-item"><a href="about-us.html">About Us</a></li>
-										<li class="menu-item"><a href="contact-us.html">Contact Us</a></li>
-										<li class="menu-item"><a href="not-existing-page.html">Page 404</a></li>
-										<li class="menu-item"><a href="not-existing-page-2.html">Page 404 (Style 2)</a></li>
-									</ul> -->
+								<li class="menu-item <?php echo($page_type == 'about_us')? 'current-menu-ancestor current-menu-parent' : '';?>"><a href="<?php echo base_url();?>"><a href="<?=base_url()?>about-us">About Us </a>
 								</li>
-								<li class="menu-item menu-item-has-children"><a href="<?php echo base_url()?>competitions">Competitions </a>
-									<!-- <ul class="sub-menu">
-										<li class="menu-item"><a href="courses-streampage.html">All courses</a></li>
-										<li class="menu-item"><a href="free-course.html">Free course</a></li>
-										<li class="menu-item"><a href="paid-course.html">Paid course</a></li>
-										<li class="menu-item menu-item-has-children"><a href="#">Lessons</a>
+								<li class="menu-item menu-item-has-children <?php echo($page_type == 'competitions')? 'current-menu-ancestor current-menu-parent' : '';?>"><a href="<?php echo base_url();?>"><a href="<?php echo base_url()?>competitions">Competitions </a>
+									<ul class="sub-menu">
+										<li class="menu-item menu-item-has-children"><a href="<?php echo base_url('competition_types');?>">Group 1</a>
 											<ul class="sub-menu">
-												<li class="menu-item"><a href="free-lesson.html">Free lesson (started)</a></li>
-												<li class="menu-item"><a href="free-lesson-coming-soon.html">Free lesson (coming soon)</a></li>
-												<li class="menu-item"><a href="lesson-from-paid-course.html">Lesson from paid course</a></li>
+												<li class="menu-item"><a href="free-lesson.html">Play School</a></li>
 											</ul>
 										</li>
-									</ul> -->
+										<li class="menu-item menu-item-has-children"><a href="<?php echo base_url('competition_types');?>">Group 2</a>
+											<ul class="sub-menu">
+												<li class="menu-item"><a href="free-lesson.html">PP1</a></li>
+												<li class="menu-item"><a href="free-lesson.html">PP2</a></li>
+												<li class="menu-item"><a href="free-lesson.html">1st Class</a></li>
+												<li class="menu-item"><a href="free-lesson.html">2nd Class</a></li>
+											</ul>
+										</li>
+										<li class="menu-item menu-item-has-children"><a href="<?php echo base_url('competition_types');?>">Group 3</a>
+											<ul class="sub-menu">
+												<li class="menu-item"><a href="free-lesson.html">3rd Class</a></li>
+												<li class="menu-item"><a href="free-lesson.html">4th Class</a></li>
+												<li class="menu-item"><a href="free-lesson.html">5th Class</a></li>
+												<li class="menu-item"><a href="free-lesson.html">6th Class</a></li>
+											</ul>
+										</li>
+										<li class="menu-item menu-item-has-children"><a href="<?php echo base_url('competition_types');?>">Group 4</a>
+											<ul class="sub-menu">
+												<li class="menu-item"><a href="free-lesson.html">7th Class</a></li>
+												<li class="menu-item"><a href="free-lesson.html">8th Class</a></li>
+												<li class="menu-item"><a href="free-lesson.html">9th Class</a></li>
+												<li class="menu-item"><a href="free-lesson.html">10th Class</a></li>
+											</ul>
+										</li>
+										<li class="menu-item menu-item-has-children"><a href="<?php echo base_url('competition_types');?>">Group 5</a>
+											<ul class="sub-menu">
+												<li class="menu-item"><a href="free-lesson.html">11th Class</a></li>
+												<li class="menu-item"><a href="free-lesson.html">12th Class</a></li>
+											</ul>
+										</li>
+										<li class="menu-item menu-item-has-children"><a href="<?php echo base_url('competition_types');?>">Group 6</a>
+											<ul class="sub-menu">
+												<li class="menu-item"><a href="free-lesson.html">Degree/Graduation</a></li>
+											</ul>
+										</li>
+										<li class="menu-item menu-item-has-children"><a href="<?php echo base_url('competition_types');?>">Group 7</a>
+											<ul class="sub-menu">
+												<li class="menu-item"><a href="free-lesson.html">IT</a></li>
+											</ul>
+										</li>
+										<li class="menu-item menu-item-has-children"><a href="<?php echo base_url('competition_types');?>">Group 8</a>
+											<ul class="sub-menu">
+												<li class="menu-item"><a href="free-lesson.html">ABCD – Any Body Can Do</a></li>
+											</ul>
+										</li>
+									</ul>
 								</li>
 								<li class="menu-item menu-item-has-children"><a href="<?php echo base_url();?>feature">Features </a>
-									<!-- <ul class="sub-menu">
-										<li class="menu-item"><a href="team-members.html">Teachers Team</a></li>
-										<li class="menu-item"><a href="personal-page.html">Teacher&#8217;s Personal Page</a></li>
-									</ul> -->
 								</li>
 								<li class="menu-item menu-item-has-children"><a href="<?php echo base_url();?>blog">Blog</a>
-									<!-- <ul class="sub-menu">
-										<li class="menu-item menu-item-has-children"><a href="#">Post Formats</a>
-											<ul class="sub-menu">
-												<li class="menu-item"><a href="post-formats-with-sidebar.html">With Sidebar</a></li>
-												<li class="menu-item"><a href="post-formats.html">Without sidebar</a></li>
-											</ul>
-										</li>
-										<li class="menu-item menu-item-has-children"><a href="#">Masonry tiles</a>
-											<ul class="sub-menu">
-												<li class="menu-item"><a href="masonry-2-columns.html">Masonry (2 columns)</a></li>
-												<li class="menu-item"><a href="masonry-3-columns.html">Masonry (3 columns)</a></li>
-											</ul>
-										</li>
-										<li class="menu-item menu-item-has-children"><a href="#">Portfolio tiles</a>
-											<ul class="sub-menu">
-												<li class="menu-item"><a href="portfolio-2-columns.html">Portfolio (2 columns)</a></li>
-												<li class="menu-item"><a href="portfolio-3-columns.html">Portfolio (3 columns)</a></li>
-												<li class="menu-item menu-item-has-children"><a href="#">Portfolio hovers</a>
-													<ul class="sub-menu">
-														<li class="menu-item"><a href="portfolio-hovers-circle.html">Circle, Part 1</a></li>
-														<li class="menu-item"><a href="portfolio-hovers-circle-part-2.html">Circle, Part 2</a></li>
-														<li class="menu-item"><a href="portfolio-hovers-circle-part-3.html">Circle, Part 3</a></li>
-														<li class="menu-item"><a href="portfolio-hovers-square.html">Square, Part 1</a></li>
-														<li class="menu-item"><a href="portfolio-hovers-square-part-2.html">Square, Part 2</a></li>
-														<li class="menu-item"><a href="portfolio-hovers-square-part-3.html">Square, Part 3</a></li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-									</ul> -->
 								</li>
 								<li class="menu-item"><a href="<?php base_url();?>contact_us">Contact Us</a></li>
 							</ul>
