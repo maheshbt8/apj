@@ -58,6 +58,7 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['contact_us'] = 'home/contact_us';
 $route['about-us'] = 'home/about_us';
+$route['Course-List'] = 'home/course_list';
 $route['feature'] = 'home/feature';
 $route['blog'] = 'home/blog';
 $route['competitions'] = 'home/competitions';

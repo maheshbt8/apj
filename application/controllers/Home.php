@@ -15,7 +15,6 @@ class home extends CI_Controller {
         $this->load->view($this->template, $this->data);
     }
     public function about_us(){
-        //$this->load->view('home/about_us');
         $this->data['page_title'] = 'About-Us';
         $this->data['page_content'] = 'about_us';
         $this->data['page_type'] = 'about_us';
@@ -49,6 +48,12 @@ class home extends CI_Controller {
         $this->data['page_title'] = 'Competition-Single-Page';
         $this->data['page_content'] = 'single_course';
         $this->data['page_type'] = 'single_course';
+        $this->load->view($this->template, $this->data);
+    }
+
+    public function course_list(){
+        $this->data['page_title'] = 'Course-List';
+        $this->data['page_content'] = 'course_list';
         $this->load->view($this->template, $this->data);
     }
 }
