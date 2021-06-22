@@ -56,5 +56,10 @@ class home extends CI_Controller {
         $this->data['page_content'] = 'course_list';
         $this->load->view($this->template, $this->data);
     }
+    public function registration(){
+        $this->data['page_title'] = 'registration';
+        $this->data['page_content'] = 'registration';
+        $this->load->view($this->template, $this->data);
+    }
 }
 ?>
