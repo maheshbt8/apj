@@ -311,7 +311,7 @@
                            <!-- Group 8 -->
                        		</div>
                         </div>
-                        <a href="<?php echo base_url('competitions');?>" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_menu sc_button_size_small aligncenter sc_button_iconed icon-graduation margin_top_1em margin_bottom_4 widht_12em">VIEW ALL COURSES</a>
+                        <!-- <a href="<?php echo base_url('competitions');?>" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_menu sc_button_size_small aligncenter sc_button_iconed icon-graduation margin_top_1em margin_bottom_4 widht_12em">VIEW ALL COURSES</a> -->
                      </div>
                   </div>
                </div>

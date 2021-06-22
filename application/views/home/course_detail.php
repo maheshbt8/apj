@@ -23,7 +23,7 @@
                             <section class="post_content">
 								<h2 class="sc_title sc_title_regular">Dancing</h2>
 								<div class="sc_video_player alignleft">
-									<div  style="opacity: 1; width: 480px; height: 270px;" data-last-width="480">
+									<div  style="opacity: 1;  height: 270px;" data-last-width="480">
 										<img alt="" src="<?php echo base_url();?>/assets/images/group3.jpg">
 									</div>
 								</div>
@@ -91,10 +91,10 @@
                                         </li> -->
                                     </ul>
                                 </div>
-                                <!-- <nav class="pagination_single pagination_lessons">
+                                <nav class="pagination_single pagination_lessons">
 									<a href="#" class="pager_next">
-										<span class="pager_numbers">Maecenas quis mattis turpis&nbsp;»</span>
+										<span class="pager_numbers">Book Now»</span>
 									</a>
-								</nav> -->
+								</nav>
                             </section>
                         </div>

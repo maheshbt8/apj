@@ -99,10 +99,10 @@
             <!-- Courses section -->
             <?php include_once('competitions_page.php');?>
             <!-- /Courses section -->
-            <div class="sc_section" data-animation="animated fadeInUp normal">
+            <!-- <div class="sc_section" data-animation="animated fadeInUp normal">
                <div class="sc_content content_wrap margin_top_2_5em_imp margin_bottom_2_5em_imp">
                   <div class="sc_section aligncenter width_70per">
-                     <h2 class="sc_title sc_title_regular margin_top_0">Learn From the Best</h2>
+                     <h2 class="sc_title sc_title_regular margin_top_0">Our Jury</h2>
                      <p>Our online courses are built in partnership with technology leaders and are relevant to industry needs.
                         <br /> Upon completing a Online course, you&#8217;ll receive a verified completion certificate recognized by industry leaders.
                      </p>
@@ -135,7 +135,7 @@
                      </div>
                   </div>
                </div>
-            </div>
+            </div> -->
             <!-- Video training section -->			
             <div class="sc_line sc_line_style_solid margin_top_0 margin_bottom_0"></div>
             <!-- <div class="sc_section" data-animation="animated fadeInUp normal">
@@ -165,7 +165,7 @@
                <div class="sc_section_overlay">
                   <div class="sc_section_content">
                      <div class="sc_content content_wrap margin_top_2_5em_imp margin_bottom_2_5em_imp">
-                        <h2 class="sc_title sc_title_regular sc_align_center text_center margin_top_0 margin_bottom_085em">Plans &amp; Pricing</h2>
+                        <h2 class="sc_title sc_title_regular sc_align_center text_center margin_top_0 margin_bottom_085em">Our Jury</h2>
                         <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_3">
                            <div class="column-1_3 sc_column_item sc_column_item_1 odd first text_center">
                               <div class="sc_price_block sc_price_block_style_1 width_100per">
