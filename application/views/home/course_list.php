@@ -24,24 +24,24 @@
                             <ul>
 
                                 <li>
-									<span>Dancing (Solo or with parent/sibling)</span>
-									<!-- <a href="product-page.html"></a> -->
+                                <a href="<?php echo base_url();?>course-Detail"><span>Dancing (Solo or with parent/sibling)</span>
+                                </a>	<!-- <a href="product-page.html"></a> -->
 								</li>
                                 <li>
-									<span>Rhymes</span>  
-									
+                                <a href="<?php echo base_url();?>course-Detail">	<span>Rhymes</span>  
+									</a>
 								</li>
                                 <li>
-									<span>Fancy dress (Solo or with parent/sibling)</span> 
-									<!-- <a href="product-page.html">Principles of Written English, Part 2</a> -->
+                                <a href="<?php echo base_url();?>course-Detail"><span>Fancy dress (Solo or with parent/sibling)</span> 
+									</a><!-- <a href="product-page.html">Principles of Written English, Part 2</a> -->
 								</li>
                                 <li>
-									<span>Colouring/Sketching </span> 
-									<!-- <a href="product-page.html">Principles of Written English, Part 2</a> -->
+                                <a href="<?php echo base_url();?>course-Detail"><span>Colouring/Sketching </span> 
+									</a><!-- <a href="product-page.html">Principles of Written English, Part 2</a> -->
 								</li>
                                 <li>
-									<span>Show your talent ( any form of talent or art )</span>
-									<!-- <a href="product-page.html">Video Training for Microsoft products and technologies</a> -->
+                                <a href="<?php echo base_url();?>course-Detail"><span>Show your talent ( any form of talent or art )</span>
+									</a><!-- <a href="product-page.html">Video Training for Microsoft products and technologies</a> -->
 								</li>
                             </ul>
                         

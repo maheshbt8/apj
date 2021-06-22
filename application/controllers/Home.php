@@ -51,9 +51,16 @@ class home extends CI_Controller {
         $this->load->view($this->template, $this->data);
     }
 
+    public function course_detail(){
+        $this->data['page_title'] = 'course-Detail';
+        $this->data['page_content'] = 'course_detail';
+        $this->data['page_type'] = 'course_detail';
+        $this->load->view($this->template, $this->data);
+    }
     public function course_list(){
         $this->data['page_title'] = 'Course-List';
         $this->data['page_content'] = 'course_list';
+        $this->data['page_type'] = 'course_list';
         $this->load->view($this->template, $this->data);
     }
     public function registration(){

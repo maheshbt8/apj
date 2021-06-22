@@ -69,7 +69,7 @@
 									<ul class="sub-menu">
 										<li class="menu-item menu-item-has-children"><a href="<?php echo base_url('competition_types');?>">Group 1</a>
 											<ul class="sub-menu">
-												<li class="menu-item"><a href="free-lesson.html">Play School</a></li>
+												<li class="menu-item"><a href="<?php echo base_url(); ?>Course-List">Play School</a></li>
 											</ul>
 										</li>
 										<li class="menu-item menu-item-has-children"><a href="<?php echo base_url('competition_types');?>">Group 2</a>
