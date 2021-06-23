@@ -92,8 +92,8 @@
                                     </ul>
                                 </div>
                                 <nav class="pagination_single pagination_lessons">
-									<a href="#" class="pager_next">
-										<span class="pager_numbers">Book Now»</span>
+									<a href="<?php echo base_url(); ?>cart" class="pager_next">
+										<span class="pager_numbers">Add To cart»</span>
 									</a>
 								</nav>
                             </section>

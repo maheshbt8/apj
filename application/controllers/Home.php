@@ -69,5 +69,11 @@ class home extends CI_Controller {
         $this->data['page_type'] = 'registration';
         $this->load->view($this->template, $this->data);
     }
+	public function cart(){
+        $this->data['page_title'] = 'cart';
+        $this->data['page_content'] = 'cart';
+        $this->data['page_type'] = 'cart';
+        $this->load->view($this->template, $this->data);
+    }
 }
 ?>

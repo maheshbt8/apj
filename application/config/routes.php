@@ -65,3 +65,4 @@ $route['competitions'] = 'home/competitions';
 $route['course-Detail'] ='home/course_detail';
 $route['competition_types'] = 'home/Competition_types';
 $route['single_course'] = 'home/single_course';
+$route['cart'] = 'home/cart';

@@ -1,3 +1,10 @@
+
+<style>
+ul>li, ol>li, dl>dd {
+    margin-bottom: 0.5em;
+    list-style: none;
+}
+</style>
 <div class="page_top_wrap page_top_title page_top_breadcrumbs sc_pt_st1">
    <div class="content_wrap">
       <div class="breadcrumbs">
@@ -24,27 +31,29 @@
                             <ul>
 
                                 <li>
-                                <a href="<?php echo base_url();?>course-Detail"><span>Dancing (Solo or with parent/sibling)</span>
-                                </a>	<!-- <a href="product-page.html"></a> -->
+                                <input class="input-checkbox" id="createaccount" type="checkbox" name="createaccount" value="1">    <span>Dancing (Solo or with parent/sibling)</span>
+                                	<!-- <a href="product-page.html"></a> -->
 								</li>
                                 <li>
-                                <a href="<?php echo base_url();?>course-Detail">	<span>Rhymes</span>  
-									</a>
+                                <input class="input-checkbox" id="createaccount" type="checkbox" name="createaccount" value="1">	<span>Rhymes</span>  
+									
 								</li>
                                 <li>
-                                <a href="<?php echo base_url();?>course-Detail"><span>Fancy dress (Solo or with parent/sibling)</span> 
+                               <input class="input-checkbox" id="createaccount" type="checkbox" name="createaccount" value="1">     <span>Fancy dress (Solo or with parent/sibling)</span> 
 									</a><!-- <a href="product-page.html">Principles of Written English, Part 2</a> -->
 								</li>
                                 <li>
-                                <a href="<?php echo base_url();?>course-Detail"><span>Colouring/Sketching </span> 
-									</a><!-- <a href="product-page.html">Principles of Written English, Part 2</a> -->
+                                <input class="input-checkbox" id="createaccount" type="checkbox" name="createaccount" value="1">   <span>Colouring/Sketching </span> 
+									<!-- <a href="product-page.html">Principles of Written English, Part 2</a> -->
 								</li>
                                 <li>
-                                <a href="<?php echo base_url();?>course-Detail"><span>Show your talent ( any form of talent or art )</span>
-									</a><!-- <a href="product-page.html">Video Training for Microsoft products and technologies</a> -->
+                               <input class="input-checkbox" id="createaccount" type="checkbox" name="createaccount" value="1">     <span>Show your talent ( any form of talent or art )</span>
+									<!-- <a href="product-page.html">Video Training for Microsoft products and technologies</a> -->
 								</li>
                             </ul>
-                        
+                        				<div class="form-row place-order">
+													<a href="<?php echo base_url();?>home/registration" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small" name="woocommerce_checkout_place_order" id="place_order" value="Place order" data-value="Place order">Place order</a>
+												</div>
                         </div>
                      </div>
                   </div>

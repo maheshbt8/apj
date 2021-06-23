@@ -3,6 +3,10 @@
 .page_content_wrap {
     padding: 3.125em 0 !important;
 }
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
+    float: left;
+    width: 100%;
+}
 </style>
 
 <div class="page_top_wrap page_top_title page_top_breadcrumbs sc_pt_st1">
@@ -37,29 +41,34 @@
 														<input type="text" class="input-text" name="billing_last_name" id="billing_last_name" placeholder="" value="">
 													</p>
 													<div class="clear"></div>
-													<p class="form-row form-row-wide" id="billing_company_field">
+													<!--<p class="form-row form-row-wide" id="billing_company_field">
 														<label for="billing_company" class="">Company Name</label>
 														<input type="text" class="input-text " name="billing_company" id="billing_company" placeholder="" value="">
-													</p>
+													</p> -->
 													<p class="form-row form-row-first" id="billing_email_field">
 														<label for="billing_email" class="">Email Address <abbr class="required" title="required">*</abbr></label>
 														<input type="email" class="input-text " name="billing_email" id="billing_email" placeholder="" value="">
 													</p>
+													
 
 													<p class="form-row form-row-last" id="billing_phone_field">
 														<label for="billing_phone" class="">Phone <abbr class="required" title="required">*</abbr></label>
 														<input type="tel" class="input-text " name="billing_phone" id="billing_phone" placeholder="" value="">
 													</p>
 													<div class="clear"></div>
+													
+													<p></p>
 													<div class="clear"></div>
-																							
+																<div class="form-row place-order">
+													<input type="submit" class="button alt" name="woocommerce_checkout_place_order" id="place_order" value="Checkout" data-value="Place order">
+												</div>							
 												</div>
 											
 																			
 									            </form>
                                             </div>
 											
-                                            <div class="col-2">
+                                          <!--  <div class="col-2">
                                             <form name="checkout" method="post" class="checkout woocommerce-checkout" action="#" enctype="multipart/form-data">
 												<div class="woocommerce-billing-fields">
 													<h3>Login</h3>
@@ -71,7 +80,7 @@
 														<label for="billing_last_name" class="">Password <abbr class="required" title="required">*</abbr></label>
 														<input type="text" class="input-text" name="billing_last_name" id="billing_last_name" placeholder="" value="">
 													</p>
-													<div class="clear"></div>
+													<div class="clear"></div>  
 												
 													
 											
@@ -82,7 +91,7 @@
 											
 																			
 									            </form>
-                                            </div>
+                                            </div> -->
 								</div>
                                 
                             </section>
