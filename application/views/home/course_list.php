@@ -20,11 +20,11 @@ ul>li, ol>li, dl>dd {
       <article class="post_item post_item_single page">
          <section class="post_content">
             <!-- Info section -->
-            <div class="sc_section accent_top bg_tint_light sc_bg1 animated fadeInUp normal" data-animation="animated fadeInUp normal">
+            <!-- <div class="sc_section accent_top bg_tint_light sc_bg1 animated fadeInUp normal" data-animation="animated fadeInUp normal">
                <div class="sc_section_overlay">
                   <div class="sc_section_content">
                      <div class="sc_content content_wrap margin_top_2_5em_imp margin_bottom_2_5em_imp">
-                        <!-- <h2 class="sc_title sc_title_regular sc_align_center margin_top_0 margin_bottom_085em text_center">Why choose online education?</h2> -->
+                        
                         <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2">
                        
                             <h5 class="widget_title">PP1, PP2, 1st Class, 2nd Class:</h5>
@@ -32,7 +32,7 @@ ul>li, ol>li, dl>dd {
 
                                 <li>
                                 <input class="input-checkbox" id="createaccount" type="checkbox" name="createaccount" value="1">    <span>Dancing (Solo or with parent/sibling)</span>
-                                	<!-- <a href="product-page.html"></a> -->
+                                	
 								</li>
                                 <li>
                                 <input class="input-checkbox" id="createaccount" type="checkbox" name="createaccount" value="1">	<span>Rhymes</span>  
@@ -40,15 +40,15 @@ ul>li, ol>li, dl>dd {
 								</li>
                                 <li>
                                <input class="input-checkbox" id="createaccount" type="checkbox" name="createaccount" value="1">     <span>Fancy dress (Solo or with parent/sibling)</span> 
-									</a><!-- <a href="product-page.html">Principles of Written English, Part 2</a> -->
+									</a>
 								</li>
                                 <li>
                                 <input class="input-checkbox" id="createaccount" type="checkbox" name="createaccount" value="1">   <span>Colouring/Sketching </span> 
-									<!-- <a href="product-page.html">Principles of Written English, Part 2</a> -->
+									
 								</li>
                                 <li>
                                <input class="input-checkbox" id="createaccount" type="checkbox" name="createaccount" value="1">     <span>Show your talent ( any form of talent or art )</span>
-									<!-- <a href="product-page.html">Video Training for Microsoft products and technologies</a> -->
+									
 								</li>
                             </ul>
                         				<div class="form-row place-order">
@@ -58,8 +58,307 @@ ul>li, ol>li, dl>dd {
                      </div>
                   </div>
                </div>
-            </div>
+            </div> -->
             <!-- /Info section -->
+
+            <!-- Info Section start-->
+            <div class="page_content_wrap">
+                <div class="content_wrap">
+                    <div class="content">
+                     <h2 class="sc_title sc_title_regular sc_align_center text_center margin_top_0 margin_bottom_085em">PP1, PP2, 1st Class, 2nd Class:</h2>
+                        
+                        <div class="isotope_wrap" data-columns="3">
+                     <!-- Courses item -->
+                     <ul><li>
+                            <div class="isotope_item isotope_item_courses isotope_column_3 flt_55">
+                                <article class="post_item post_item_courses odd">
+                                    <div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">                         
+                                        <div class="post_featured img">
+                                            <a href="#">
+                                    <img alt="" src="http://placehold.it/400x400"></a>
+                                            <h4 class="post_title">
+                                    <a href="#">Dancing (Solo or with parent/sibling)</a>
+                                 </h4>
+                                       <div class="post_descr">
+                                          <div class="post_price">
+                                       <span class="post_price_value">300/-</span>
+                                       <span class="post_price_period">monthly</span>
+                                    </div>
+                                                <div class="post_category">
+                                       <a href="#">Language</a>
+                                    </div>
+                                                <div class="post_rating reviews_summary blog_reviews">
+                                                    <div class="criteria_summary criteria_row">
+                                                        <div class="reviews_stars reviews_style_stars" data-mark="60.5">
+                                                            <div class="reviews_stars_wrap">
+                                                               <div class="reviews_stars_bg"><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span></div>
+                                                               <div class="reviews_stars_hover width_61per"><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span></div>
+                                                            </div>
+                                                            <div class="reviews_value">60.5</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="post_info_wrap info">
+                                            <div class="info-back">
+                                                <h4 class="post_title">
+                                       <a href="#">Dancing (Solo or with parent/sibling)</a>
+                                    </h4>
+                                                <div class="post_descr">
+                                                    <p>
+                                          <a href="#">Details......</a>
+                                       </p>
+                                                    <div class="post_buttons">
+                                                        <div class="post_button">
+                                             <a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
+                                          </div>
+                                                        <div class="post_button">
+                                             <a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">BUY NOW</a>
+                                          </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                         </li></ul>
+
+                            <!-- /Courses item -->
+                            <!-- Courses item -->
+                            <div class="isotope_item isotope_item_courses isotope_column_3 flt_55">
+                                <article class="post_item post_item_courses odd">
+                                    <div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">                         
+                                        <div class="post_featured img">
+                                            <a href="#">
+                                    <img alt="" src="http://placehold.it/400x400"></a>
+                                            <h4 class="post_title">
+                                    <a href="#">Rhymes</a>
+                                 </h4>
+                                            <div class="post_descr">
+                                                <div class="post_price">
+                                       <span class="post_price_value">$85</span>
+                                       <span class="post_price_period">monthly</span>
+                                    </div>
+                                                <div class="post_category">
+                                       <a href="#">Language</a>
+                                    </div>
+                                                <div class="post_rating reviews_summary blog_reviews">
+                                                    <div class="criteria_summary criteria_row">
+                                                        <div class="reviews_stars reviews_style_stars" data-mark="60.5">
+                                                            <div class="reviews_stars_wrap">
+                                                                <div class="reviews_stars_bg"><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span></div>
+                                                                <div class="reviews_stars_hover width_61per"><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span></div>
+                                                            </div>
+                                                            <div class="reviews_value">60.5</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="post_info_wrap info">
+                                            <div class="info-back">
+                                                <h4 class="post_title">
+                                       <a href="#">Rhymes</a>
+                                    </h4>
+                                                <div class="post_descr">
+                                                    <p>
+                                          <a href="#">Details</a>
+                                       </p>
+                                                    <div class="post_buttons">
+                                                        <div class="post_button">
+                                             <a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
+                                          </div>
+                                                        <div class="post_button">
+                                             <a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">BUY NOW</a>
+                                          </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <!-- /Courses item -->
+                            <!-- Courses item -->
+                            <div class="isotope_item isotope_item_courses isotope_column_3 flt_55">
+                                <article class="post_item post_item_courses odd">
+                                    <div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">                         
+                                        <div class="post_featured img">
+                                            <a href="#">
+                                    <img alt="" src="http://placehold.it/400x400"></a>
+                                            <h4 class="post_title">
+                                    <a href="#">Fancy dress (Solo or with parent/sibling)</a>
+                                 </h4>
+                                            <div class="post_descr">
+                                                <div class="post_price">
+                                       <span class="post_price_value">300/-</span>
+                                       <span class="post_price_period">monthly</span>
+                                    </div>
+                                                <div class="post_category">
+                                       <a href="#">Language</a>
+                                    </div>
+                                                <div class="post_rating reviews_summary blog_reviews">
+                                                    <div class="criteria_summary criteria_row">
+                                                        <div class="reviews_stars reviews_style_stars" data-mark="60.5">
+                                                            <div class="reviews_stars_wrap">
+                                                                <div class="reviews_stars_bg"><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span></div>
+                                                                <div class="reviews_stars_hover width_61per"><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span></div>
+                                                            </div>
+                                                            <div class="reviews_value">60.5</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="post_info_wrap info">
+                                            <div class="info-back">
+                                                <h4 class="post_title">
+                                       <a href="#">Fancy dress (Solo or with parent/sibling)</a>
+                                    </h4>
+                                                <div class="post_descr">
+                                                    <p>
+                                          <a href="#">Details.....</a>
+                                       </p>
+                                                    <div class="post_buttons">
+                                                        <div class="post_button">
+                                             <a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
+                                          </div>
+                                                        <div class="post_button">
+                                             <a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">BUY NOW</a>
+                                          </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <!-- /Courses item -->
+
+                            <!-- Courses item -->
+                            <div class="isotope_item isotope_item_courses isotope_column_3 flt_55">
+                                <article class="post_item post_item_courses odd">
+                                    <div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">                         
+                                        <div class="post_featured img">
+                                            <a href="#">
+                                    <img alt="" src="http://placehold.it/400x400"></a>
+                                            <h4 class="post_title">
+                                    <a href="#">Colouring/Sketching</a>
+                                 </h4>
+                                            <div class="post_descr">
+                                                <div class="post_price">
+                                       <span class="post_price_value">300/-</span>
+                                       <span class="post_price_period">monthly</span>
+                                    </div>
+                                                <div class="post_category">
+                                       <a href="#">Language</a>
+                                    </div>
+                                                <div class="post_rating reviews_summary blog_reviews">
+                                                    <div class="criteria_summary criteria_row">
+                                                        <div class="reviews_stars reviews_style_stars" data-mark="60.5">
+                                                            <div class="reviews_stars_wrap">
+                                                                <div class="reviews_stars_bg"><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span></div>
+                                                                <div class="reviews_stars_hover width_61per"><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span></div>
+                                                            </div>
+                                                            <div class="reviews_value">60.5</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="post_info_wrap info">
+                                            <div class="info-back">
+                                                <h4 class="post_title">
+                                       <a href="#">Colouring/Sketching</a>
+                                    </h4>
+                                                <div class="post_descr">
+                                                    <p>
+                                          <a href="#">Details.....</a>
+                                       </p>
+                                                    <div class="post_buttons">
+                                                        <div class="post_button">
+                                             <a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
+                                          </div>
+                                                        <div class="post_button">
+                                             <a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">BUY NOW</a>
+                                          </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <!-- /Courses item -->
+
+                            <!-- Courses item -->
+                            <div class="isotope_item isotope_item_courses isotope_column_3 flt_55">
+                                <article class="post_item post_item_courses odd">
+                                    <div class="post_content isotope_item_content ih-item colored square effect_dir left_to_right">                         
+                                        <div class="post_featured img">
+                                            <a href="#">
+                                    <img alt="" src="http://placehold.it/400x400"></a>
+                                            <h4 class="post_title">
+                                    <a href="#">Show your talent ( any form of talent or art )</a>
+                                 </h4>
+                                            <div class="post_descr">
+                                                <div class="post_price">
+                                       <span class="post_price_value">300/-</span>
+                                       <span class="post_price_period">monthly</span>
+                                    </div>
+                                                <div class="post_category">
+                                       <a href="#">Language</a>
+                                    </div>
+                                                <div class="post_rating reviews_summary blog_reviews">
+                                                    <div class="criteria_summary criteria_row">
+                                                        <div class="reviews_stars reviews_style_stars" data-mark="60.5">
+                                                            <div class="reviews_stars_wrap">
+                                                                <div class="reviews_stars_bg"><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span></div>
+                                                                <div class="reviews_stars_hover width_61per"><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span><span class="reviews_star"></span></div>
+                                                            </div>
+                                                            <div class="reviews_value">60.5</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="post_info_wrap info">
+                                            <div class="info-back">
+                                                <h4 class="post_title">
+                                       <a href="#">Show your talent ( any form of talent or art )</a>
+                                    </h4>
+                                                <div class="post_descr">
+                                                    <p>
+                                          <a href="#">Details.....</a>
+                                       </p>
+                                                    <div class="post_buttons">
+                                                        <div class="post_button">
+                                             <a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">LEARN MORE</a>
+                                          </div>
+                                                        <div class="post_button">
+                                             <a href="#" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small">BUY NOW</a>
+                                          </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <!-- /Courses item -->
+                         </div>
+
+                         <div class="form-row place-order">
+                           <a href="<?php echo base_url();?>home/registration" class="sc_button sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small" name="woocommerce_checkout_place_order" id="place_order" value="Place order" data-value="Place order">Place order</a>
+                        </div>
+
+                      </div>
+                   </div>
+                </div>
+            <!-- Info Section end-->
+
             <!-- Team section -->
             <div class="sc_section animated fadeInUp normal" data-animation="animated fadeInUp normal">
                <div class="sc_content content_wrap margin_top_3em_imp margin_bottom_3em_imp">
